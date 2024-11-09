@@ -46,39 +46,7 @@ const MainContent = () => {
               <p className="text-slate-400">How can I help you today?</p>
             </div>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-5">
-              <div className="h-[200px] p-4 bg-gray-200 rounded-lg relative cursor-pointer hover:bg-gray-300">
-                <p className="text-slate-700 text-lg">
-                  Suggeset top 10 webseries.
-                </p>
-
-                <FaCompass className="text-4xl p-1 absolute bottom-2 right-2" />
-              </div>
-
-              <div className="h-[200px] p-4 bg-gray-200 rounded-lg relative cursor-pointer hover:bg-gray-300">
-                <p className="text-slate-700 text-lg">
-                  What is loop in Javascript?
-                </p>
-
-                <FaLightbulb className="text-4xl p-1 absolute bottom-2 right-2" />
-              </div>
-
-              <div className="h-[200px] p-4 bg-gray-200 rounded-lg relative cursor-pointer hover:bg-gray-300">
-                <p className="text-slate-700 text-lg">
-                  Who is known as the "Mother of Dragons"?
-                </p>
-
-                <FaMessage className="text-4xl p-1 absolute bottom-2 right-2" />
-              </div>
-
-              <div className="h-[200px] p-4 bg-gray-200 rounded-lg relative cursor-pointer hover:bg-gray-300">
-                <p className="text-slate-700 text-lg">
-                  Who sits on the Iron Throne at the end of the series?
-                </p>
-
-                <FaCode className="text-4xl p-1 absolute bottom-2 right-2" />
-              </div>
-            </div>
+            
           </>
         ) : (
           <div className="py-0 px-[5%] max-h-[70vh] overflow-y-scroll scrollbar-hidden">
